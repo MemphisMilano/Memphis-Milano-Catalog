@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'littlebit-loopy-variable';
+    src: url(https://fonts.adobe.com/fonts/littlebit-variable?vf-font=LittlebitLoopy-Small&vf-font-size=100&vf-instance=Small#fonts-section);
+}
+
+
+header {
+    background-color: #201535 ;
+    text-align: center;
+    color: #0FEAFF;
+        font-size: 130px;
+        font-family: "littlebit-loopy-variable",sans-serif;
+        font-variation-settings: 'LOOP' 100;
+        transform: font-variation-settings 500;
+}
+
+header:hover {
+    color: yellow;
+    font-size: 130px;
+    font-family: "littlebit-loopy-variable",sans-serif;
+    font-variation-settings: 'LOOP' 900;
+}
+
+.opener {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Azo', sans-serif;
+    color: #201535;
+    font-weight: bold;
+}
+
+.closer {
+    text-align: center;
+}
+
+.first {
+    margin: 20px 20px;
+}
+
+body {
+    font-size:  16px;
+    font-family: 'Azo', sans-serif;
+    font-weight: 100;
+    margin: 0px;
+    background-color: #f7f0f0;
+}
+
+h1 {
+    font-size: 48.83px;
+    font-family: 'Azo', sans-serif;
+    text-align: center;
+    color: #201535;
+}
+
+h2 {
+    font-size: 43px;
+    font-family: 'Azo', sans-serif;
+}
+
+.wrapper {
+ margin: 80px;
+ display: grid;
+ grid-template-columns: 40% 40% 40%;
+ align-items: center;
+
+}
+
+
+.wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.rightsection {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    width: 100%;
+    margin: 50px 20px 0px 0px;
+}
+
+.rightsection img {
+    height: 550px;
+    text-align: left;
+    border: 4px solid #CFCACA;
+    border-left: 0px;
+}
+
+.rightsection p {
+    margin-right: 80px;
+    margin-top: 60px;
+    margin-left: 20px;
+ 
+}
+
+.rightsection h2 {
+    margin-right: 80px;
+    margin-top: 60px;
+    margin-left: 20px;
+    color: #201535;
+}
+
+.leftsection {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    width: 100%;
+    margin: 50px 0px 20px 0px;
+}
+
+.leftsection img {
+    height: 600px;
+    text-align: right;
+    border: 4px solid #CFCACA;
+    border-right: 0px;
+}
+
+.leftsection p {
+    margin-left: 60px;
+    margin-top: 60px;
+    margin-right: 20px;
+ 
+}
+
+.leftsection h2 {
+    margin-left: 60px;
+    margin-top: 60px;
+    color: #201535;
+}
+
+footer {
+    background-color: #201535;
+    color: #CFCACA;
+}
+
+.tc-container {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    position: relative;
+}
+
+.tc-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.top-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.top-img:hover {
+    opacity: 1;
+}
